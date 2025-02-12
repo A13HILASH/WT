@@ -1,0 +1,113 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: #d7dd7f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Centered container */
+  .center {
+    background-color: rgb(196, 97, 97);
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #292626;
+    margin-bottom: 30px;
+    font-size: 24px;
+  }
+  
+  /* Input Fields */
+  .txt_field {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .txt_field input {
+    width: 100%;
+    padding: 10px;
+    padding-left: 40px;
+    margin-top: 5px;
+    background-color: #f0eeee;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .txt_field label {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    font-size: 14px;
+    color: #292626;
+    transition: all 0.3s ease;
+  }
+  
+  /* Floating label effect */
+  .txt_field input:focus ~ label,
+  .txt_field input:valid ~ label {
+    top: -18px;
+    left: 10px;
+    font-size: 12px;
+    color: #292626;
+  }
+  
+  /* Forgot Password */
+  .forgot {
+    text-align: right;
+    font-size: 14px;
+    color: #292626;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .forgot:hover {
+    text-decoration: underline;
+  }
+  
+  /* Submit Button */
+  input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: rgb(248, 248, 248);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* SignUp Link */
+  .users_signup {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .users_signup a {
+    color: #063986;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .users_signup a:hover {
+    text-decoration: underline;
+  }
+  
